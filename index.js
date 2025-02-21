@@ -22,7 +22,7 @@ const port = process.env.PORT || 3000;
 // Configurar middleware para analizar JSON en las solicitudes
 app.use(express.json());
 // Configurar CORS para admitir cualquier origen
-// app.use(cors());
+app.use(cors());
 
 // Configurar rutas de la API Rest
 app.use("/api/obras", obraRoutes);
