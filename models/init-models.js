@@ -1,3 +1,6 @@
+// init-models.js 
+// Este archivo se genera automáticamente con el comando sequelize-auto -o "./models" -d museum -h localhost -u root -x root -e mysql
+// y se encarga de definir las relaciones entre las tablas de la base de datos
 var DataTypes = require("sequelize").DataTypes;
 var _artistas = require("./artistas");
 var _obras = require("./obras");
